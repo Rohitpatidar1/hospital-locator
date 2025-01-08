@@ -1,0 +1,23 @@
+// OpenHospitals.jsx ya EmergencyContact.jsx
+import { useContext } from "react";
+import { HospitaldataContext } from "../../Store/HospitalDataStore"; // HospitaldataContext ko sahi se import karo
+
+function OpenHospitals() {
+  const { data } = useContext(HospitaldataContext);
+
+  return (
+    <div>
+      <h2>Open Hospitals</h2>
+      {data &&
+        data.map((item) => (
+          <div key={item._id}>
+            <h3>{item.name}</h3>
+            <p>{item.description}</p>
+            <p>{item.contact}</p>
+          </div>
+        ))}
+    </div>
+  );
+}
+
+export default OpenHospitals;

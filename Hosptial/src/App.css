@@ -1,0 +1,1000 @@
+header {
+  background-color: #007bff;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.hero {
+  background-color: #f0f8ff;
+  text-align: center;
+  padding: 50px;
+}
+
+.search-container {
+  margin-bottom: 30px;
+}
+
+.search-bar {
+  padding: 10px;
+  width: 60%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.quick-services {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.service img {
+  width: 50px;
+  height: 50px;
+}
+
+.service p {
+  margin-top: 10px;
+}
+
+.map-section {
+  text-align: center;
+  padding: 40px;
+  margin-top: -125px;
+}
+
+#map {
+  width: 100%;
+  height: 400px;
+  background-color: #e0e0e0; /* Placeholder until you integrate Google Maps */
+}
+
+.hospital-listttt {
+  padding: 40px;
+  text-align: center;
+  background-color: #f9f9f9;
+  overflow: visible; /* Ensure container expands to fit content */
+  margin-bottom: 60px;
+}
+
+.hospital-cardddd {
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
+  width: 50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px; /* Rounded corners for smoother look */
+  overflow: hidden; /* Ensures content inside card does not spill out */
+}
+
+.hospital-cardddd h3 {
+  margin-bottom: 10px;
+}
+
+.hospital-cardddd button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; /* Add cursor pointer for interactive buttons */
+}
+
+.hospital-cardddd button:hover {
+  background-color: #218838; /* Darken button on hover for better UX */
+}
+
+/* Ensure the last card is visible */
+.hospital-listttt:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* services */
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background: #007bff;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: Georgia, serif;
+  /* color: rgb(229, 212, 212); */
+  margin-left: 0%;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  margin: 0;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+.services {
+  text-align: center;
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.service-card {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h2 {
+  margin-top: 0;
+  font-size: 1.2em;
+}
+
+footer {
+  background: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
+
+/* about css */
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background: #007bff;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  margin: 0;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+.about {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-section {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2 {
+  margin-top: 0;
+  font-size: 1.2em;
+}
+
+.about-section p {
+  margin: 10px 0;
+}
+
+.about-section a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.about-section a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
+
+/* contact css */
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background: #007bff;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  margin: 0;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+.contact {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.contact-form,
+.contact-details {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 1;
+}
+
+.contact-form h2,
+.contact-details h2 {
+  margin-top: 0;
+  font-size: 1.2em;
+}
+
+.contact-form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #0056b3;
+}
+
+.contact-details a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+}
+
+.social-media {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.social-media li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.social-media a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.social-media a:hover {
+  text-decoration: underline;
+}
+
+.map-section {
+  /* margin-top: 20px; */
+}
+
+footer {
+  background: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
+
+/*------------------openhospital----------------------------*/
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  line-height: 1.6;
+}
+
+/* Main Section */
+.hospitalll-info {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 28px;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Hospital Card Layout */
+.hospitalll-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.hospitalll-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: calc(50% - 10px); /* Two cards per row */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.hospitalll-card:hover {
+  transform: translateY(-5px);
+}
+
+.hospital-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+.hospitalll-details {
+  padding: 15px;
+}
+
+.hospitalll-details h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.hospitalll-details p {
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.hospitalll-details p:last-child {
+  font-weight: bold;
+}
+
+/* Footer Styles (optional) */
+footer {
+  background: #007bff;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hospital-card {
+    width: calc(100% - 10px); /* Full width for mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
+
+/* ---location based search---------- */
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+h1,
+h2 {
+  color: #007bff;
+}
+
+/* Info Section */
+.info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.info p {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Hospital List Section */
+.hospital-results {
+  margin-top: 30px;
+}
+
+.hospital-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.hospital-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: calc(33% - 20px); /* Three cards per row */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.hospital-card:hover {
+  transform: translateY(-5px);
+}
+
+.hospital-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.hospital-details {
+  padding: 15px;
+}
+
+.hospital-details h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.hospital-details p {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #555;
+}
+
+.details-button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.details-button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hospital-card {
+    width: calc(50% - 10px); /* Two cards per row on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .hospital-card {
+    width: 100%; /* One card per row on mobile */
+  }
+}
+
+/* -------------------------------------HospitalFacilities------------------------- */
+General Body Styles body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f9fc;
+  color: #333;
+}
+
+/* Main Container */
+main {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Style */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+/* Hospital List Grid Layout */
+.hospitall {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Individual Hospital Item */
+.hospital-itemm {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-left: 5px solid #3498db; /* Blue line for visual distinction */
+}
+
+/* Hover Effect on Cards */
+.hospital-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Hospital Name Styling */
+.hospital-itemm h2 {
+  margin-top: 0;
+  font-size: 24px;
+  color: #2980b9;
+  font-weight: 600;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/* Paragraphs in the Hospital Item */
+.hospital-itemm p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  color: #34495e;
+}
+
+/* Strong Tags for Highlighted Text */
+.hospital-itemm strong {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+/* Links (Optional if Needed) */
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+  .hospitall {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+}
+
+/* -----------------------------Eergency contact---------------------------- */
+
+/* General Body Styling */
+/* General Styles */
+.emergency-contact {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping */
+  justify-content: space-between; /* Distribute space between items */
+  align-items: flex-start; /* Align items at the top */
+  text-align: center;
+  padding: 20px;
+}
+
+.hospital-info {
+  flex: 0 1 48%; /* Ensures each block takes up 48% of the container width */
+  box-sizing: border-box; /* Include padding/border in element's total width */
+  margin-bottom: 20px; /* Space between blocks */
+}
+
+.hospital-item {
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+}
+
+.hospital-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Optional: Mobile Responsiveness */
+@media (max-width: 768px) {
+  .hospital-info {
+    flex: 0 1 100%; /* For small screens, each item takes 100% width */
+  }
+}
+
+/* ------------------Emergency Response Time------------- */
+main {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 32px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #34495e;
+  margin-bottom: 20px;
+}
+
+.hospital-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.hospital-item {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+}
+
+.hospital-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.hospital-item h2 {
+  font-size: 24px;
+  color: #2980b9;
+  margin-bottom: 10px;
+}
+
+.hospital-item p {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #555;
+}
+
+.call-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.call-btn:hover {
+  background-color: #0056b3;
+}
+
+/* ------------------------AmbulanceService--------------------- */
+/* AmbulanceService.css */
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+}
+
+#contact-map {
+  margin-top: 20px;
+  /* padding-bottom: 50px; */
+}
+
+#image1 {
+  width: 60%;
+  height: 40%;
+}
