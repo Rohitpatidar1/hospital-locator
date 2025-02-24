@@ -5,9 +5,8 @@ const cors = require("cors");
 
 const app = express();
 app.use(express.json());
-app.use(cors());
 
-app.use(cors({ origin: "https://your-frontend-url.onrender.com" }));
+app.use(cors({ origin: "https://hospital-locator-hosptial.onrender.com" }));
 connectDB();
 
 app.get("/", async (req, res) => {
