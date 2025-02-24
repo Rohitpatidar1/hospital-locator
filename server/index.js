@@ -12,6 +12,8 @@ app.get("/", async (req, res) => {
   const response = await itemModel.find();
   return res.json({ items: response });
 });
+
+const port = process.env.PORT || 3000;
 app.listen(3000, () => {
   console.log("app is running");
 });
