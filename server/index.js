@@ -5,16 +5,22 @@ const cors = require("cors");
 
 const app = express();
 app.use(express.json());
-
 app.use(cors({ origin: "https://hospital-locator-hosptial.onrender.com" }));
+
 connectDB();
 
+// Routes
 app.get("/", async (req, res) => {
-  const response = await itemModel.find();
-  return res.json({ items: response });
+  try {
+    const response = await itemModel.find();
+    return res.json({ items: response });
+  } catch (error) {
+    return res.status(500).json({ error: "Internal Server Error" });
+  }
 });
 
+// Port setup
 const port = process.env.PORT || 3000;
-app.listen(3000, () => {
-  console.log("app is running");
+app.listen(port, () => {
+  console.log(`App is running on port ${port}`);
 });
