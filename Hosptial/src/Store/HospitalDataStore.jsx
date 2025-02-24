@@ -9,7 +9,7 @@ export function HospitalDataProvider({ children }) {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch("http://localhost:3000");
+        const res = await fetch("https://hospital-locator-server.onrender.com");
         const fetchedData = await res.json();
         setData(fetchedData.items);
       } catch (error) {
